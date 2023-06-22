@@ -5,6 +5,11 @@ const PORT = proccess.env.PORT || 3050
 app.use(express.json())
 app.use(cors())
 
+
+app.get("/") = (req,res)=>{
+    res.send("welcome to home page")
+}
+
 app.listen(PORT, () => {
     console.log('server running on port', PORT)
 })
