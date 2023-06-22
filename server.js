@@ -14,8 +14,8 @@ app.get("/about") = (req,res)=>{
     res.send("welcome to abut page")
 }
 
-app.get("/contact") = (req,res)=>{
-    res.send("welcome to contact page")
+app.get("/welcome") = (req,res)=>{
+    res.send("welcome to welcome to contact page")
 }
 
 
