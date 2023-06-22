@@ -10,6 +10,10 @@ app.get("/") = (req,res)=>{
     res.send("welcome to home page")
 }
 
+app.get("/about") = (req,res)=>{
+    res.send("welcome to abut page")
+}
+
 app.listen(PORT, () => {
     console.log('server running on port', PORT)
 })
